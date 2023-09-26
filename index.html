@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>My Personal Portfolio Cum Resume</title>
+    <link rel="icon" sizes="200x200" href="images/Removal-169.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9d71af8e1a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/photo_2022-09-01 15.00.13.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="head-text">
+                <p>Web Developer</p>
+                <h1>Hi , i'm <span>Devansh</span><br> Vishwakarma from Kanpur</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------About--------------- -->
+    <div class="about" id="about">
+        <div class="container1">
+            <div class="row">
+                <div class="column-1">
+                <!-- <img src="images/IMG_2593.jpg" class="images-about"> -->
+                <img src="images/photo_2022-09-01 10.40.52.jpeg" class="images-about">
+                <!-- <img src="images/IMG_20210520_140113_124.jpg" class="images-about"> -->
+                </div>
+                <div class="column-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p class="me">My name is Devansh Vishwakarma and currently i'm pursuing my Bachelor of technology and looking forword to work as a intern in a good organization to get to know about how things works in real world.</p>
+
+                    <div class="tab-titles">
+                        <p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks" onclick="opentab('education')">Education</p>
+                        <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tabcontents active-tab" id="skills">
+                        <ul>
+                            <li><span>C/C++ Prgrammer</span><br>Basic Problems and DSA</li>
+                            <li><span>Web Developer</span><br>Frontend and Backend Developer</li>
+                            <li><span>Market Analysis</span><br>Long/Short Term</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            <li><span>Class-X</span><br>Percentage: 84.2%<br>Session: 2017-18<br>School: KDMA International , Kanpur</li>
+                            <li><span>Class-XII</span><br>Percentage: 89.2%<br>Session: 2019-20<br>School: KDMA International , Kanpur</li>
+                            <li><span>B.Tech 1st Year</span><br>CGPA: 7.9<br>Session: 2021-22<br>College: DIT University , Dehradun</li>  
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="experience">
+                        <ul>
+                            <li>Currently i have no experience as i am a fresher and this is my first project. But i will be obliged if you go through my this portfolio website and consider me as a intern for your prestigious organization. </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+<!-- Skills -->
+<div class="skills" >
+    <h1 class="skil-subtitle">Skills</h1>
+    <div class="container" id="extraskills">
+        <p><i class="fa-solid fa-code-simple"></i>c++</p>
+        <p><i class="fa-brands fa-html5"></i><br></p>
+        <p><i class="fa-brands fa-css3-alt"></i><br></p>
+        <p><i class="fa-brands fa-wordpress"></i><br></p>
+        <p><i class="fa-brands fa-php"></i><br></p>
+    </div>
+</div>
+<!-- ---------------Portfolio--------------- -->
+<div class="portfolio" id="portfolio">
+    <div class="container">
+        <h1 class="subtitle" id="mywork">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <a href=""><i class="fa-sharp fa-solid fa-laptop-file"></i></a>
+                    <h3>work in progress</h3>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <a href=""><i class="fa-sharp fa-solid fa-laptop-file"></i></a>
+                    <h3>work in progress</h3>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <a href=""><i class="fa-sharp fa-solid fa-laptop-file"></i></a>
+                    <h3>work in progress</h3>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn"> See More </a>
+    </div>
+</div>
+
+<!-- ---------------Contact--------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="column1">
+                <h1 class="subtitle">Contact Me</h1>
+                
+                <p><i class="fa-solid fa-envelope"></i> devwish0207@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91-7525936363</p>
+                <p><i class="fa-brands fa-telegram"></i> @devansh2202</p>
+                <div class="socialicon">
+                    <a href="https://www.instagram.com/_thenameisdevansh/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/devanshkumar_21" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/devansh-vishwakarma-08ba06226/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/dv2202" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="images/devansh cv.pdf" download class="btn" id="btn2">Download CV</a>
+            </div>
+            <div class="column2">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="submitbtn" >Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©Devansh Made By Devansh Vishwakarma <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+<script>
+    var tabl =document.getElementsByClassName("tablinks");
+    var tabc =document.getElementsByClassName("tabcontents");
+
+    function opentab(tabname){
+    for(tablink of tabl){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabc){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    var sidemeu=document.getElementById("sidemenu")
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwfC9IEVqzpr-MF-_0IU4w7_pkDQWtLS6dzJ1y_J3HySQq-1De3ux0IR8VXgZyAJBSQ7g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => 
+        msg.innerHTML="Message Sent Successfully")
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
